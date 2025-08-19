@@ -1,22 +1,27 @@
-### Describe the main folders and their purposes.
+# Repository Audit
 
-The **blog** folder has the blog post files for the project in Markdown and Yaml format
+## Folder Structure
 
-The **docs** folder has the documentation files and folders for the project. The files are in Markdown format
+- The **`blog`** folder contains the blog post files for the project in Markdown and Yaml format.
 
-The **pages** folder has the custom pages of the project
+- The **`docs`** folder holds the documentation pages and folders for the project.
 
-The **src** folder has the css and js files
+- The **`pages`** folder contains the custom pages of the project.
 
-The **static** folder has assets and images that are required in the project
+- The **`src`** folder has the css and js files.
 
-### How are the docs, blog, and pages organized? Are there any conventions or patterns?
+- The **`static`** folder has assets and images that are required in the project.
+
+## Observations
 
 The folders follow the structure used in the Docusaurus template.
 
-### Note any areas where the structure or organization could be improved for clarity, scalability, or maintainability.
+`README.md` can describe what the repo is about while `overview.md` can be moved to docs folder and describe the modules
 
-The naming convention is not consistent, for instance, in the folder blog, some files start with a date, while others start with the name
+## Improvements
 
+The naming convention is not consistent, for instance, in the folder `blog`, some files start with a date, while others start with the name.
 
+There should be clear entry points, for instance, adding a `getting-started.md` file for each content type.
 
+Create a structured navigation for `docs/tutorials/` to centralize learning materials as content increases.
